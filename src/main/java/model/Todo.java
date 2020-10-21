@@ -3,7 +3,7 @@ package model;
 public class Todo {
     private int id;
     private String title;
-    private boolean status;
+    private boolean done;
 
     public int getId() {
         return id;
@@ -21,11 +21,11 @@ public class Todo {
         this.title = title;
     }
 
-    public boolean isStatus() {
-        return status;
+    public boolean isDone() {
+        return done;
     }
 
-    public void setStatus(boolean status) {
-        this.status = status;
+    public void setDone(boolean done) {
+        this.done = done;
     }
 }
